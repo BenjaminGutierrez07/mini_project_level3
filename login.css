@@ -1,9 +1,9 @@
 body{
-    width: 1200px;
-    height: 600px;
+    width: 1350px;
+    height: 550px;
     display: flex;
-    justify-content: center;
-    align-items: center;    
+    justify-content: center; 
+    align-items: center; 
 }
 
 
@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: right;
-    border: 2px solid;
+    border: 1px solid #bdbdbd;
     border-radius: 30px;
 }
 
@@ -28,19 +28,51 @@ body{
     color: #333;
 }
 
-
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .emailLogin {
-    width: 250px;
-    height: 20px;
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 7px;
+    border: 1px solid #bdbdbd;
 }
 .passLogin {
-    width: 250px;
-    height: 20px;
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 7px;
+    border: 1px solid #bdbdbd;
 }
 .buttonLogin {
-    width: 260px;
-    height: 20px;
+    width: 305px;
+    height: 30px;
     color: white;
-    background-color: blue;
+    background-color:#2F80ED;    ;
     border: none;
+    border-radius: 7px;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: center;
+    font-family: Noto sans-serif;
+}
+.socialLogin {
+    display: flex;
+    justify-content: center;
+}
+.register {
+    display: flex;
+    justify-content: center;
+}
+.buttonRegister {
+    border: none;
+    background-color: white;
+    color: blue;
 }

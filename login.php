@@ -9,15 +9,23 @@
 <body>
     <div class="usuarioLogin">
     <p class="titleLogin">Login</p>
-    <input class="emailLogin">Email 
-    <input class="passLogin">Password 
+    <div class="buttons">
+    <input class="emailLogin" placeholder="Email"> 
+    <input class="passLogin" placeholder="Password">
     <button class="buttonLogin">Login</button>
+    </div>
+    <div class="subTitle">
     <p>or continue  with these social profile</p>
-    <div>
+    </div>
+    <div class="socialLogin">
         <button>Google</button>
         <button>Facebook</button>
         <button>twitter</button>
         <button>Github</button>
+    </div>
+    <div class="register">
+        <p>Don't you have an account yet? </p>
+        <button class="buttonRegister">Register</button>
     </div>
     </div>
 </body>
