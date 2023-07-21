@@ -9,23 +9,27 @@
 </head>
 
 <body>
-    <div class="login">
-        <p class="titleOne">Join thousands of learnes from around the world</p>
-        <p>master web development by making real-life projects. There are multiple paths for you to choose</p>
-        <img src="../Mini_project/public/resources/email.svg">
-        <input class="email" placeholder="Email">
-        <input class="password" placeholder="Password">
-        <button class="start">Start coding now</button>
-        <p>continue with these social profile</p>
+    <div class="register">
+        <div class="mode">
+            <button class="modeDoC">Dark</button>
+        </div>
+        <p class="titleRegister">Join thousands of learnes from around the world</p>
+        <p class="subRegister">Master web development by making real-life projects. There are multiple paths for you to choose</p>
+        <div class="infoRegister">
+            <input class="email" placeholder="Email">
+            <input class="password" placeholder="Password">
+            <button class="start">Start coding now</button>
+        </div>
+        <p class="subTiRegister">or continue with these social profile</p>
         <div class="social">
-        <button>google</button>
-        <button>facebook</button>
-        <button>twitter</button>
-        <button>Github</button>    
+            <button>google</button>
+            <button>facebook</button>
+            <button>twitter</button>
+            <button>Github</button>
         </div>
         <div class="already">
-        <p>already a member?</p>
-        <button class="inicio">Login</button>
+            <p>already a member?</p>
+            <button class="inicio">Login</button>
         </div>
     </div>
 </body>

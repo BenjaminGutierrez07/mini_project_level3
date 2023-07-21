@@ -1,6 +1,6 @@
 body{
     width: 1350px;
-    height: 550px;
+    height: 600px;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -21,7 +21,15 @@ body{
 }
 
 
-
+.modeLo{
+    display: flex;
+    justify-content: right;
+}
+.modeLogin {
+    border: 1px solid #bdbdbd;
+    border-radius: 7px;
+    background-color: white;
+}
 .titleLogin {
     font-family: Noto sans-serif;
     font-size: 20px;
@@ -31,32 +39,57 @@ body{
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
 }
 .emailLogin {
-    width: 290px;
+    width: 260px;
     height: 30px;
     padding: 5px;
     font-size: 12px;
     border-radius: 7px;
     border: 1px solid #bdbdbd;
+    padding-left: 35px;
+}
+.iconEmail {
+    position: relative;
+}
+.iconEmail svg {
+      position: absolute;
+      color: #bdbdbd;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
 }
 .passLogin {
-    width: 290px;
+    width: 260px;
     height: 30px;
     padding: 5px;
     font-size: 12px;
     border-radius: 7px;
     border: 1px solid #bdbdbd;
+    margin-bottom: 12px;
+    padding-left: 35px;
+}
+.iconPass {
+    position: relative;
+}
+.iconPass svg {
+    position: absolute;
+    color: #bdbdbd;
+      top: 40%;
+      left: 10px;
+      transform: translateY(-50%);
 }
 .buttonLogin {
     width: 305px;
     height: 30px;
     color: white;
-    background-color:#2F80ED;    ;
+    background-color:#2F80ED;    
     border: none;
     border-radius: 7px;
 }
+
+
 
 .subTitle {
     display: flex;
@@ -74,5 +107,5 @@ body{
 .buttonRegister {
     border: none;
     background-color: white;
-    color: blue;
+    color: #2F80ED;
 }

@@ -23,35 +23,43 @@ body{
 }
 
 
+
 .perfil{
     display: flex;
     justify-content: right;
 }
 
 
+
 .bigBox{
     width: 700px;
-    height: 500px;
+    height: 350px;
     border: 1px solid;
     border-radius: 10px;
 }
 .subTiProfile{
     display: flex;
+    border-bottom: 1px solid;
 }
 .photoProfile{
     display: flex;
+    border-bottom: 1px solid;
 }
 .nameProfile{
     display: flex;
+    border-bottom: 1px solid;
 }
 .bioProfile{
     display: flex;
+    border-bottom: 1px solid;
 }
 .phoneProfile{
     display: flex;
+    border-bottom: 1px solid;
 }
 .emailProfile{
     display: flex;
+    border-bottom: 1px solid;
 }
 .passProfile{
     display: flex;
