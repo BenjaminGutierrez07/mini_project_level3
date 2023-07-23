@@ -19,9 +19,14 @@ body{
 }
 
 
-.mode{
+.modeRe{
     display: flex;
     justify-content: right;
+    color: #bdbdbd;
+}
+.modeRe svg {
+    width: 20px;
+    height: 20px;
 }
 .modeDoC {
     border: 1px solid #bdbdbd;
@@ -45,22 +50,44 @@ body{
     flex-direction: column;
     gap: 10px;
 }
-.email {
-    width: 290px;
-    height: 25px;
-    padding: 7px;
+.emailRe {
+    width: 260px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
     border-radius: 7px;
     border: 1px solid #bdbdbd;
-    color: #bdbdbd;
+    padding-left: 35px;
 }
-.password {
-    width: 290px;
-    height: 25px;
-    padding: 7px;
-    border-radius: 5px;
-    margin-bottom: 12px;
+.iconEmail {
+    position: relative;
+}
+.iconEmail svg {
+      position: absolute;
+      color: #bdbdbd;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+}
+.passRe {
+    width: 260px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 7px;
     border: 1px solid #bdbdbd;
+    margin-bottom: 12px;
+    padding-left: 35px;
+}
+.iconPass {
+    position: relative;
+}
+.iconPass svg {
+    position: absolute;
     color: #bdbdbd;
+      top: 40%;
+      left: 10px;
+      transform: translateY(-50%);
 }
 .start {
     width: 307px;
@@ -78,14 +105,58 @@ body{
     display: flex;
     justify-content: center;
     font-family: Noto sans-serif;
+    color:#bdbdbd;
 }
-.social {
+.socialRegister {
     display: flex;
     justify-content: center;
+    margin-bottom: 12px;
+    gap: 20px;
+}
+.googleRe {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;
+    color: #bdbdbd;
+}
+.facebookRe {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;
+    color: #bdbdbd;
+}
+.twitterRe {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;
+    color: #bdbdbd;
+}
+.githubRe {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;
+    color:#bdbdbd ;
 }
 .already {
     display: flex;
     justify-content: center;
+    color:#bdbdbd;
 }
 .inicio {
     background-color: white;
