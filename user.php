@@ -15,12 +15,13 @@ if(!isset($_SESSION["usuario"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="user.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="profile">
         <div class="perfil">
-            <p>photo</p>
-            <a href="logout.php">Log out</a>
+            <p>Photo</p>
+            <a class="logout" href="logout.php">Logout</a>
         </div>
         <div class="profileTi">
         <p class="titleProfile">Personal Info</p>

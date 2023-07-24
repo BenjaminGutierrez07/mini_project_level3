@@ -19,8 +19,8 @@ if(!isset($_SESSION["usuario"])) {
 <body>
     <div class="profile">
         <div class="perfil">
-            <p>photo</p>
-            <a href="logout.php">Log out</a>
+            <p>Photo</p>
+            <a class="logout" href="logout.php">Logout</a>
         </div>
         <div class="profileTi">
         <p class="titleProfile">Personal Info</p>

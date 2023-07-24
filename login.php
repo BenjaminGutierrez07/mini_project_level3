@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
     <script src="login.js" ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>

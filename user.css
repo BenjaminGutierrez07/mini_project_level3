@@ -20,6 +20,7 @@ body{
     margin: 0;
     font-size: 50px;
     color: #000;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -27,6 +28,7 @@ body{
 .perfil{
     display: flex;
     justify-content: right;
+    gap: 15px;
 }
 
 
@@ -36,6 +38,11 @@ body{
     height: 380px;
     border: 1px solid #dbdbdb;
     border-radius: 10px;
+}
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .subTiProfile{
     display: flex;
@@ -51,7 +58,7 @@ body{
 .userPro {
     margin: 0;
     margin-top: 10px;
-    font-family: Noto sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
 .userSub {
