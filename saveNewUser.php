@@ -9,16 +9,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     require("connection.php");
 
-    // Preparar la consulta SQL
     $updateQuery = "UPDATE users SET name = ?, bio = ?, phone = ? WHERE id = ?";
 
-    // Preparar la sentencia
     $stmt = $mysqli->prepare($updateQuery);
 
-    // Vincular los parámetros de la consulta
+    
     $stmt->bind_param("sssi", $newName, $newBio, $newPhone, $userId);
 
-    // Ejecutar la consulta
     if ($stmt->execute()) {
         $_SESSION["usuario"]["name"] = $newName;
         $_SESSION["usuario"]["bio"] = $newBio;

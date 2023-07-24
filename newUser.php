@@ -1,14 +1,12 @@
 <?php
 session_start();
 
-// Verificar si la sesión está activa y si hay datos del usuario en la sesión
 if (!isset($_SESSION["usuario"])) {
-    // Si no hay sesión activa o no hay datos del usuario, redirigir al usuario a la página de inicio de sesión
+    
     header("Location: login.php");
     exit;
 }
 
-// Acceder a los datos del usuario almacenados en la sesión
 $usuario = $_SESSION["usuario"];
 $email = $usuario["email"];
 ?>

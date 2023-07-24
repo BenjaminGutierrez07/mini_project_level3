@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Código de login.js aquí
+    
     const divElement = document.querySelector('.modeRe');
     const iconoSVG = document.getElementById('iconoluna');
     const emailInput = document.getElementById('emailRe');
