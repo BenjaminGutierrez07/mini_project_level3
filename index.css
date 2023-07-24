@@ -41,6 +41,7 @@ body{
 }
 .subRegister {
     font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -104,7 +105,8 @@ body{
 .subTiRegister {
     display: flex;
     justify-content: center;
-    font-family: Noto sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
     color:#bdbdbd;
 }
 .socialRegister {
@@ -157,6 +159,8 @@ body{
     display: flex;
     justify-content: center;
     color:#bdbdbd;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
 }
 .methodRe {
     margin: 0;
@@ -167,4 +171,6 @@ body{
     background-color: white;
     border: none;
     color: #2F80ED;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
 }

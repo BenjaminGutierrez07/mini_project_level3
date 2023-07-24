@@ -100,7 +100,7 @@ body{
 .subTitle {
     display: flex;
     justify-content: center;
-    font-family: Noto sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 13px;
     color: #bdbdbd;
     margin-bottom: 10px;
@@ -154,6 +154,7 @@ body{
 .register {
     display: flex;
     justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 11px;
     color: #bdbdbd;
 }
@@ -165,6 +166,7 @@ body{
 .buttonRegister {
     border: none;
     background-color: white;
+    font-family: 'Noto Sans', sans-serif;
     color: #2F80ED;
     font-size: 11px;
 }
