@@ -19,6 +19,8 @@
                 if ($numFilas === 1) {
                     header("Location: user.php");
                 } else {
+                    $message = "The account don't exist";
                     header("Location: login.php");
                 }
         }
+        

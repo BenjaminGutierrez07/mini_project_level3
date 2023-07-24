@@ -32,26 +32,26 @@ if(!isset($_SESSION["usuario"])) {
             <p class="userPro">Profile</p>
             <p class="userSub">Some info may be visible to other people</p>
             </div>
-        <form action="changeOldUser.php" method="post">
-        <button class="edit">Edit</button>
-        </form>
+        <form action="saveOldUser.php" method="post">
+        <button class="edit" value="Save">Save</button>
         </div>
         <div class="photoProfile">
             <label class="img" for="img">PHOTO</label>
-            <label>Photo</label>
+            <input type="file" name="img" id="img">
         </div>
         <div class="nameProfile">
             <p class="nameOne">NAME</p>
-            <p class="nombre"> <?= $_SESSION["usuario"]["name"] ?></p>
+            <input type="text" name="newName" value="<?= $_SESSION["usuario"]["name"] ?>" >
         </div>
         <div class="bioProfile">
             <p class="nameTwo">BIO</p>
-            <p class="bio"> <?= $_SESSION["usuario"]["bio"] ?> </p>
+            <textarea type="text" name="newBio" value="<?= $_SESSION["usuario"]["bio"] ?>" ></textarea>
         </div>
         <div class="phoneProfile">
             <p class="nameThree">PHONE</p>
-            <p class="phone"> <?= $_SESSION["usuario"]["phone"] ?> </p>
+            <input type="text" name="newPhone" value="<?= $_SESSION["usuario"]["phone"] ?>" >
         </div>
+        </form>
         <div class="emailProfile">
             <p class="nameFour">EMAIL</p>
             <p class="email"> <?= $_SESSION["usuario"]["email"] ?> </p>
