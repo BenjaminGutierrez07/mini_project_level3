@@ -158,6 +158,11 @@ body{
     justify-content: center;
     color:#bdbdbd;
 }
+.methodRe {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
 .inicio {
     background-color: white;
     border: none;

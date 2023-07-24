@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,33 +23,37 @@
         </div>
         <div class="bigBox">
         <div class="subTiProfile">
-            <p>Profile</p>
-            <p>Some info may be visible to other people</p>
-            <button>Edit</button>
+            <div class="descript">
+            <p class="userPro">Profile</p>
+            <p class="userSub">Some info may be visible to other people</p>
+            </div>
+        <div>
+        <button>Edit</button>
+        </div>
         </div>
         <div class="photoProfile">
-            <p>PHOTO</p>
-            <img />
+            <label class="img" for="img">PHOTO</label>
+            <input type="file" name="img" id="img">
         </div>
         <div class="nameProfile">
-            <p>Name</p>
-            <textarea>Nombre</textarea>
+            <p class="nameOne">NAME</p>
+            <p class="nombre"> <?= $_SESSION["usuario"]["name"] ?></p>
         </div>
         <div class="bioProfile">
-            <p>Bio</p>
-            <input />
+            <p class="nameTwo">BIO</p>
+            <p class="bio"> <?= $_SESSION["usuario"]["bio"] ?> </p>
         </div>
         <div class="phoneProfile">
-            <p>phone</p>
-            <input />
+            <p class="nameThree">PHONE</p>
+            <p class="phone"> <?= $_SESSION["usuario"]["phone"] ?> </p>
         </div>
         <div class="emailProfile">
-            <p>Email</p>
-            <input />
+            <p class="nameFour">EMAIL</p>
+            <p class="email"> <?= $_SESSION["usuario"]["email"] ?> </p>
         </div>
         <div class="passProfile">
-            <p>Password</p>
-            <input />
+            <p class="nameFive">PASSWORD</p>
+            <p class="pass"> ********** </p>
         </div>
         </div>
     </div>

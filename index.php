@@ -18,21 +18,21 @@
         </div>
         <p class="titleRegister" id="titleRegister">Join thousands of learnes from around the world</p>
         <p class="subRegister" id="subRegister">Master web development by making real-life projects. There are multiple paths for you to choose</p>
-        <div class="buttonsRe">
+        <form class="buttonsRe" action="user.php" method="post">
             <div class="iconEmail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
                 </svg>
-                <input class="emailRe" id="emailRe" placeholder="Email">
+                <input type="email" class="emailRe"  required name="emailRe" id="emailRe" placeholder="Email">
             </div>
             <div class="iconPass">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
                     <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
                 </svg>
-                <input class="passRe" id="passRe" placeholder="Password">
+                <input type="password" class="passRe" name="passRe" id="passRe" placeholder="Password">
             </div>
-            <button class="start">Start Coding</button>
-        </div>
+            <button type="submit" class="start">Start Coding</button>
+        </form>
         <p class="subTiRegister">or continue with these social profile</p>
         <div class="socialRegister">
             <div class="googleRe">
@@ -58,7 +58,9 @@
         </div>
         <div class="already" id="alreadyRe">
             <p>already a member?</p>
+            <form class="methodRe" action="login.php" method="post">
             <button class="inicio" id="inicio">Login</button>
+            </form>
         </div>
     </div>
 </body>

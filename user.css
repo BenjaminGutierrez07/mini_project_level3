@@ -33,34 +33,129 @@ body{
 
 .bigBox{
     width: 700px;
-    height: 350px;
-    border: 1px solid;
+    height: 380px;
+    border: 1px solid #dbdbdb;
     border-radius: 10px;
 }
 .subTiProfile{
     display: flex;
-    border-bottom: 1px solid;
+    justify-content: space-around;
+    gap: 180px;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
 }
+.descript {
+    display: flex;
+    flex-direction: column;
+}
+.userPro {
+    margin: 0;
+    margin-top: 10px;
+    font-family: Noto sans-serif;
+    font-size: 30px;
+}
+.userSub {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #dbdbdb;
+}
+
+
+
+
 .photoProfile{
+    height: 50px;
     display: flex;
-    border-bottom: 1px solid;
+    align-items: center;
+    padding-left: 55px;
+    border-bottom: 1px solid #dbdbdb;
+    gap: 130px;
 }
+.img {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+
+
+
 .nameProfile{
+    height: 50px;
     display: flex;
-    border-bottom: 1px solid;
+    align-items: center;
+    padding-left: 55px;
+    border-bottom: 1px solid #dbdbdb;
+    gap: 130px;
 }
+.nameOne {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+.nombre {
+    font-size: 15px;
+    color: #000;
+}
+
+
+
+
 .bioProfile{
+    height: 50px;
     display: flex;
-    border-bottom: 1px solid;
+    align-items: center;
+    padding-left: 55px;
+    border-bottom: 1px solid #dbdbdb;
+    gap: 145px;
 }
+.nameTwo {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+
+
+
+
 .phoneProfile{
+    height: 50px;
     display: flex;
-    border-bottom: 1px solid;
+    align-items: center;
+    padding-left: 55px;
+    border-bottom: 1px solid #dbdbdb;
+    gap: 126px;
 }
+.nameThree {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+
+
+
 .emailProfile{
+    height: 50px;
     display: flex;
-    border-bottom: 1px solid;
+    align-items: center;
+    padding-left: 55px;
+    border-bottom: 1px solid #dbdbdb;
+    gap: 130px;
 }
+.nameFour {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+
+
+
 .passProfile{
+    height: 50px;
     display: flex;
+    align-items: center;
+    padding-left: 55px;
+    gap: 105px;
+}
+.nameFive {
+    font-size: 12px;
+    color: #dbdbdb;
 }
