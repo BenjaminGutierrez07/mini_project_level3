@@ -11,19 +11,19 @@
 
 <body>
     <div class="register">
-    <div class="modeRe" id="modeRe">
+        <div class="modeRe" id="modeRe">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16" id="iconoluna">
                 <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
             </svg>
         </div>
         <p class="titleRegister" id="titleRegister">Join thousands of learnes from around the world</p>
         <p class="subRegister" id="subRegister">Master web development by making real-life projects. There are multiple paths for you to choose</p>
-        <form class="buttonsRe" action="user.php" method="post">
+        <form class="buttonsRe" action="addNewUser.php" method="post" id="register">
             <div class="iconEmail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
                 </svg>
-                <input type="email" class="emailRe"  required name="emailRe" id="emailRe" placeholder="Email">
+                <input type="email" class="emailRe" required name="emailRe" id="emailRe" placeholder="Email">
             </div>
             <div class="iconPass">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
@@ -59,7 +59,7 @@
         <div class="already" id="alreadyRe">
             <p>already a member?</p>
             <form class="methodRe" action="login.php" method="post">
-            <button class="inicio" id="inicio">Login</button>
+                <button class="inicio" id="inicio">Login</button>
             </form>
         </div>
     </div>
