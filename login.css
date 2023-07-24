@@ -170,3 +170,179 @@ body{
     color: #2F80ED;
     font-size: 11px;
 }
+
+
+
+
+@media (max-width: 600px) {
+    body{
+        width: 370px;
+        height: 660px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    
+    
+    .usuarioLogin {
+        width: 370px;
+        height: 600px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        gap: 15px;
+    }
+    
+    
+    .modeLo{
+        display: flex;
+        justify-content: right;
+        color: #bdbdbd;
+    }
+    .modeLo svg {
+        width: 20px;
+        height: 20px;
+    }
+    .modeLogin {
+        border: 1px solid #bdbdbd;
+        border-radius: 7px;
+        background-color: white;
+    }
+    .titleLogin {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: #333;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .emailLogin {
+        width: 260px;
+        height: 30px;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 7px;
+        border: 1px solid #bdbdbd;
+        padding-left: 35px;
+    }
+    .iconEmail {
+        position: relative;
+    }
+    .iconEmail svg {
+          position: absolute;
+          color: #bdbdbd;
+          top: 50%;
+          left: 10px;
+          transform: translateY(-50%);
+    }
+    .passLogin {
+        width: 260px;
+        height: 30px;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 7px;
+        border: 1px solid #bdbdbd;
+        margin-bottom: 12px;
+        padding-left: 35px;
+    }
+    .iconPass {
+        position: relative;
+    }
+    .iconPass svg {
+        position: absolute;
+        color: #bdbdbd;
+          top: 40%;
+          left: 10px;
+          transform: translateY(-50%);
+    }
+    .buttonLogin {
+        width: 305px;
+        height: 30px;
+        color: white;
+        background-color:#2F80ED;    
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 15px;
+    }
+    
+    
+    
+    .subTitle {
+        display: flex;
+        justify-content: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 13px;
+        color: #bdbdbd;
+        margin-bottom: 10px;
+    }
+    .socialLogin {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+        gap: 20px;
+    }
+    .googleLo {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #bdbdbd;
+        border-radius: 30px;
+        color: #bdbdbd;
+    }
+    .facebookLo {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #bdbdbd;
+        border-radius: 30px;
+        color: #bdbdbd;
+    }
+    .twitterLo {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #bdbdbd;
+        border-radius: 30px;
+        color: #bdbdbd;
+    }
+    .githubLo {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #bdbdbd;
+        border-radius: 30px;
+        color:#bdbdbd ;
+    }
+    .register {
+        display: flex;
+        justify-content: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 11px;
+        color: #bdbdbd;
+    }
+    .methodLo {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    .buttonRegister {
+        border: none;
+        background-color: white;
+        font-family: 'Noto Sans', sans-serif;
+        color: #2F80ED;
+        font-size: 11px;
+    }
+}
